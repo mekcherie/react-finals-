@@ -1,19 +1,19 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Header from './Header'; 
-import MetalMeta from './MetalMeta';
 import Band from './Band';
+import MetalMeta from './MetalMeta';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Band />
       <MetalMeta />
-      {/* <Band /> */}
     </div>
   );
+
 }
 
 export default App;

@@ -4,8 +4,8 @@ import React from 'react';
 function Band(props) {
     const {ID, band_name, fans, formed, origin, split, style } = props 
     return (
-        <div className="MetalMeta">
-            <h1>{ID}</h1>
+        <div className="Band">
+            <h2>{ID}</h2>
             <h2>{band_name}</h2> 
             <h2>{fans}</h2>
             <h2>{formed}</h2>
