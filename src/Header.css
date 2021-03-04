@@ -1,0 +1,16 @@
+.Header {
+    width: 100%;
+    align-items: baseline;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    background-color: green;
+
+  }
+
+.Header .nav-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
