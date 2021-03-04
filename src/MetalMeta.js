@@ -8,7 +8,7 @@ function MetalMeta() {
         return (
     
         <Band
-            key={i}
+            key ={i}
             ID = {ID}
             band_name = {band_name}
             fans = {fans} 

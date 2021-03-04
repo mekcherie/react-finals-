@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'; 
 import Band from './Band';
 import MetalMeta from './MetalMeta';
+import Like from './Like';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Band />
       <MetalMeta />
+      <Like />
     </div>
   );
 
